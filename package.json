@@ -1,6 +1,6 @@
 {
-  "name": "ckeditor5-build-strapi-wysiwyg",
-  "version": "1.8.0",
+  "name": "@toantk911/ckeditor5-build-strapi-wysiwyg",
+  "version": "1.8.1",
   "description": "CKEditor 5 build for Strapi WYSIWYG editor replacement",
   "private": false,
   "keywords": [
@@ -70,13 +70,15 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "Pavel Roslovets (https://github.com/roslovets)",
+  "author": "Toan Tran (https://github.com/toantk911)",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/Roslovets-Inc/ckeditor5-build-strapi-wysiwyg",
-  "bugs": "https://github.com/Roslovets-Inc/ckeditor5-build-strapi-wysiwyg/issues",
+  "homepage": "https://github.com/toantk911/ckeditor5-build-strapi-wysiwyg",
+  "bugs": {
+    "url": "https://github.com/toantk911/ckeditor5-build-strapi-wysiwyg"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Roslovets-Inc/ckeditor5-build-strapi-wysiwyg.git"
+    "url": "git+https://github.com/toantk911/ckeditor5-build-strapi-wysiwyg.git"
   },
   "scripts": {
     "lint": "eslint --quiet \"**/*.js\"",
@@ -103,5 +105,9 @@
     "hooks": {
       "pre-commit": "npx lint-staged"
     }
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }

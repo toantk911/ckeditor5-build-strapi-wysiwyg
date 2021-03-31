@@ -6,6 +6,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
@@ -52,6 +53,7 @@ ClassicEditor.builtinPlugins = [
 	Italic,
 	Underline,
 	Code,
+	Strikethrough,
 	BlockQuote,
 	Heading,
 	Image,
@@ -101,6 +103,7 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'underline',
+			'strikethrough',
 			'code',
 			'link',
 			'bulletedList',
