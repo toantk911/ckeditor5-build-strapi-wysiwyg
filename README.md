@@ -1,4 +1,4 @@
-# Enhanced build of CKEditor 5 for Strapi
+# Enhanced build of CKEditor 5 (Markdown) for Strapi
 
 Enhanced build of [CKEditor 5](https://github.com/ckeditor/ckeditor5) to replace default [Strapi](https://github.com/strapi/strapi) WYSIWYG editor.
 
@@ -14,6 +14,7 @@ Enhanced build of [CKEditor 5](https://github.com/ckeditor/ckeditor5) to replace
 - Automatically upload Inserted images to Strapi Media Library (thanks to [ckeditor5-strapi-upload-plugin](https://github.com/gtomato/ckeditor5-strapi-upload-plugin))
 - Access Strapi Media Library directly from the editor toolbar 🔥
 - Full screen mode 🔥
+- Support Markdown
 
 
 ## How to try
