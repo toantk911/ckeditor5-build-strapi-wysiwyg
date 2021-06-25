@@ -1,6 +1,6 @@
 {
   "name": "@toantk911/ckeditor5-build-strapi-wysiwyg",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "description": "CKEditor 5 build for Strapi WYSIWYG editor replacement",
   "private": false,
   "keywords": [
@@ -58,9 +58,7 @@
     "@gtomato/ckeditor5-strapi-upload-plugin": "^1.0.0",
     "eslint": "^7.22.0",
     "eslint-config-ckeditor5": "^3.0.0",
-    "patch-package": "6.4.7",
     "postcss-loader": "^3.0.0",
-    "postinstall-postinstall": "2.1.0",
     "raw-loader": "^4.0.1",
     "sanitize-html": "^2.3.3",
     "style-loader": "^1.2.1",
@@ -83,7 +81,6 @@
     "url": "git+https://github.com/toantk911/ckeditor5-build-strapi-wysiwyg.git"
   },
   "scripts": {
-    "postinstall": "patch-package",
     "lint": "eslint --quiet \"**/*.js\"",
     "bootstrap": "yarn install",
     "build": "webpack --mode production",
